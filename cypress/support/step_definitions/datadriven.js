@@ -10,7 +10,7 @@ Given('Data Driven Testing', () => {
 When("I add username {word}",(username) =>{
     cy.get ('abc').type(username)
 })
-
+// now whenever u make changes
 And("I add userpassword {word}",(username) =>{
     cy.get ('abc').type(username)
 })
